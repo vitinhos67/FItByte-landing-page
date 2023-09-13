@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,800&display=swap");
+
+.tabela {
+  width: 1200px;
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  color: #666565;
+  margin: 0 auto;
+}
+
+.diminuir-tamanho-texto {
+  font-size: 15px;
+}
+
+.alinhar-esquerda {
+  text-align: left;
+}
+
+.tabela,
+th,
+td {
+  border-collapse: collapse; /*define a separação entre as bordar*/
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-selecionar-plano {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #ffb612;
+    color: #ffff;
+    font-family: "DM Sans", sans-serif;
+    border: none;
+    padding: 6px 60px 6px 60px;
+    border-radius: 30px;
+  }
