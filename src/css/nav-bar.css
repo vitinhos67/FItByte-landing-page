@@ -15,6 +15,7 @@
 }
 
 .nav-ul {
+  width: 100%;
   list-style-type: none;
   display: flex;
 }
@@ -22,7 +23,6 @@
 /* Estiliza a li e da os espaçamentos */
 .nav-ul li {
   font-family: "DM Sans", sans-serif;
-  
   font-size: 30px;
   margin-top: 25px;
   margin-left: 30px;
