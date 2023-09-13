@@ -3,7 +3,15 @@
   background-color: white;
   width: 100%;
   display: block;
+  position: fixed;
   height: 8vh;
+}
+
+.logo {
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -75px;
 }
 
 .nav-ul {
@@ -14,6 +22,7 @@
 /* Estiliza a li e da os espaçamentos */
 .nav-ul li {
   font-family: "DM Sans", sans-serif;
+  
   font-size: 30px;
   margin-top: 25px;
   margin-left: 30px;
@@ -22,7 +31,7 @@
 /* Estiliza os links de navegação */
 a {
   text-decoration: none;
-  color: #111111;
+  color: #666565;
   font-weight: 300;
 }
 

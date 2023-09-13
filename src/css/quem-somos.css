@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,800&display=swap");
+
+div.quem-somos-container {
+  text-align: center;
+  height: 998px;
+}
+
+div.quem-somos-container div.quem-somos h1 {
+  font-size: 50px;
+  margin: 10px;
+}
+
+div.quem-somos-container div.quem-somos h1 {
+  color: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+  padding: 20px;
+}
+
+.quem-somos {
+  width: 100%;
+  height: 300px;
+  background-color: #ffb612;
+}
+
+div.quem-somos h1.titulo-quem-somos {
+  color: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+  font-size: 75px;
+  margin-top: 400px
+}
+
+.sub-titulo-quem-somos {
+  font-size: 30px;
+  width: 1000px;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+  color: #656565;
+}
+
+.btf {
+  margin: 40px;
+}
+
+.h1-inline {
+  display: inline;
+}
+
+
+.nossos-destaques {
+    display: flex;
+    width: 1000px;
+    height: 50%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.nossos-destaques-particao {
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+
+.nossos-destaques-ul {
+    padding: 10px 30px 0px 30px;
+    
+}
+
+.nossos-destaques-ul li {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    color:#656565;
+}
+
+img.destaque-icon {
+    width: 30px;
+}
