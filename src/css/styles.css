@@ -44,7 +44,8 @@ body {
 }
 
 .merchan-texto {
-    width: 800px;    
+    width: 800px;  
+    font-size: 45px;  
 }
 
 .btn-planos {
