@@ -3,6 +3,12 @@
 Esteja por dentro de como foi construido nosso website altamente escalavel por nossos desenvolvedores.
 
 
+## Tecnologias Utilizadas
+
+* HTML
+* CSS
+
+
 ## Paletas de cores
 
 Quais são as paletas utilizafas por nos?

@@ -74,6 +74,12 @@ div.quem-somos h1.titulo-quem-somos {
     color:#656565;
 }
 
+.imagem-destaque {
+  position: left;
+  justify-content: left;
+  width: 600px;
+}
+
 img.destaque-icon {
     width: 30px;
 }
