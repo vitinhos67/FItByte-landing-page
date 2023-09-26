@@ -38,7 +38,7 @@ h3.h3-texto {
   border-radius: 25px;
   margin: 20px 0 0 0;
   color: #666565;
-  font-weight: bold; /* Deixa a fonte do botão em negrito */
+  font-weight: bold;
 }
 
 .btn-planos:hover {
