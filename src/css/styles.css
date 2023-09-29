@@ -12,8 +12,9 @@ body {
   background-image: url(../assets/images/background/image-background.png);
   background-size: cover; /* isso faz a imagem se comportar adequadamente com o elemento. */
   background-repeat: no-repeat; /* Não repete a imagem */
+  background-attachment: fixed;
   height: 111vh;
-  display: flex; /* Define que o elemento ira se comportar flexivelmente, no caso, um do lado do outro */
+  display: flex; 
 }
 
 .conteudo-esquerda {

@@ -1,43 +1,46 @@
 .footer {
-  width: 100%;
   display: flex;
-  height: 100px;
-  background-color: #F9F9F9;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 200px;
+  background-color: #f9f9f9;
 }
 
+.sociais {
+  font-family: "DM Sans", sans-serif;
+  color: #656565;
+  width: 400px;
+  height: 100%;
+}
 
-.footer .sociais ul {
-  padding: 20px;
+.sociais-div {
+  text-align: center;
+  margin: 50px;
+}
+
+.sociais-div h1 {
+  font-size: 35px;
+}
+
+.sociais-div ul {
   display: flex;
+  justify-content: center;
+}
+
+.logo-footer {
+  width: 6vh;
 }
 
 .sessoes {
-  margin-top: 30px;
-  margin-left: 50px;
   font-size: 35px;
   font-family: "DM Sans", sans-serif;
 }
 
-.sessoes li {
-  padding-left: 80px;
+.hl-sessoes a {
+  display: block;
+  width: 100%;
 }
-
-
 
 .footer li {
-  padding-left:20px;
   list-style-type: none;
-}
-
-.padrao-section {
-  font-size: 20px;
-  font-family: "DM Sans", sans-serif;
-}
-
-.logo-footer {
-  width: 65px;
-}
-
-.footer section h1 {
-  padding-left: 1.7vh;
 }
