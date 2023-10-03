@@ -1,9 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-
 .container-contato {
-    margin-top: 70px;
+  display: flex;
+  margin-top: 70px;
+}
+
+.contato {
+  border: 1px solid red;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.titulo-contato {
+
+  border: 1px solid red;
+  width: 300px;
+}
+
+.titulo-contato img {
+    width: 50px;
 }

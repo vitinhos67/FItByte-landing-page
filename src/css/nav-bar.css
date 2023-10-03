@@ -40,4 +40,5 @@ a {
 
 a:hover {
   color: black;
+  border-bottom: 1px solid #666565;
 }
