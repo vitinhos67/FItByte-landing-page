@@ -8,13 +8,17 @@ body {
   background-color: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   background-image: url(../assets/images/background/image-background.png);
   background-size: cover; /* isso faz a imagem se comportar adequadamente com o elemento. */
   background-repeat: no-repeat; /* Não repete a imagem */
   background-attachment: fixed;
   height: 111vh;
-  display: flex; 
+  display: flex;
 }
 
 .conteudo-esquerda {

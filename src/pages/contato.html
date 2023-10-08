@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon.ico"
+      type="image/x-icon"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FitByte - Pagina de Contato</title>
@@ -9,6 +13,7 @@
     <link rel="stylesheet" href="../css/nav-bar.css" />
     <link rel="stylesheet" href="../css/contato/index.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/contato/card.css" />
   </head>
 
   <body>
@@ -27,30 +32,82 @@
     <div class="container-contato">
       <div class="contato">
         <div class="titulo-contato">
-          <h1>
-            Seja mais um de nossos franqueados
-            <img src="../assets/images/emote.png" alt="Emote feliz" />
-          </h1>
-          <h2>Venha mudar a sua historia com a gente</h2>
+          <h1>Seja mais um de nossos franqueados!</h1>
+          <h2>Venha mudar a sua historia com a gente.</h2>
+
+          <h3>
+            Se você compartilha nossa paixão pelo sucesso, valores nossos
+            princípios fundamentais e está pronto para embarcar em uma
+            emocionante jornada empresarial, entre em contato conosco hoje
+            mesmo. Juntos, podemos construir um futuro de sucesso e realizações.
+            Junte-se à nossa família de franqueados na [Nome da Sua Empresa] e
+            seja parte de algo extraordinário. Estamos ansiosos para recebê-lo
+            de braços abertos.
+          </h3>
+        </div>
+
+        <div class="cards">
+
+          <h1>Confira o que nossos franqueados tem a dizer</h1>
+
+          <div class="card">
+            <img src="cliente1.jpg" alt="Cliente 1" />
+            <h2>Nome do Cliente</h2>
+            <div class="rating">★★★★★</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              facilisi.
+            </p>
+          </div>
+          <div class="card">
+            <img src="cliente1.jpg" alt="Cliente 1" />
+            <h2>Nome do Cliente</h2>
+            <div class="rating">★★★★★</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              facilisi.
+            </p>
+          </div>
+          <div class="card">
+            <img src="cliente1.jpg" alt="Cliente 1" />
+            <h2>Nome do Cliente</h2>
+            <div class="rating">★★★★★</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              facilisi.
+            </p>
+          </div>
+          <div class="card">
+            <img src="cliente1.jpg" alt="Cliente 1" />
+            <h2>Nome do Cliente</h2>
+            <div class="rating">★★★★★</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              facilisi.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="contato"> 
+      <div class="contato">
+        <form action="#" class="form-contato">
+          <h1 style="color: #ffb612">Contate nós!!</h1>
+          <label for="email" class="label-email">Email: </label>
+          <input type="email" />
+          <label for="nome">Nome: </label>
+          <input type="text" />
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            name="message"
+            class="message"
+            cols="30"
+            rows="10"
+          ></textarea>
 
-        <h1>Mande sua mensagem!!</h1>
-
-        <form action="">
-          <label for="email">Email: </label>
-          <input type="email">
-          <label for="Nome">Nome: </label>
-          <input type="Nome">
-          <label for="Mensagem">Mensagem:</label>
-          <input type="Mensagem">
-          
+          <button type="submit">Enviar Mensagem</button>
         </form>
-          
       </div>
-      
     </div>
+
     <!--FOOTER, INICIO-->
     <footer class="footer">
       <section class="sociais padrao-section">
@@ -76,7 +133,7 @@
             <li>
               <a href="" class="footer-sociais-li" target="_blank"
                 ><img
-                  src="../assets/images/sociais/facebook-logo-3-1.png"
+                  src="../assets/images/sociais/facebook.png"
                   class="logo-footer"
                   alt="Logo facebook"
               /></a>
@@ -85,13 +142,23 @@
         </div>
       </section>
 
+      <section class="sessoes modo-pagamento-section">
+        <h1>Modos de Pagamentos</h1>
+
+        <img
+          src="../assets/images/pagamentos.png"
+          alt="Metodos de pagamentos"
+          class="img-modos-pg"
+        />
+      </section>
+
       <section class="sessoes padrao-section">
-        <div class="hl-sessoes">
-          <a href="#quem-somos">Quem somos</a>
-          <a href="#planos">Planos</a>
-          <a href="pages/time.html">Nosso time</a>
-          <a href="pages/contato.html">Seja um franqueado</a>
-        </div>
+        <h1>Sessões</h1>
+
+        <a href="#quem-somos">Quem somos</a>
+        <a href="#planos">Planos</a>
+        <a href="pages/time.html">Nosso time</a>
+        <a href="pages/contato.html">Seja um franqueado</a>
       </section>
     </footer>
     <!--FOOTER, FIM-->

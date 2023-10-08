@@ -33,6 +33,7 @@
 .baixar-app-btn:hover {
     background-color: #656565;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .sub-texto {
