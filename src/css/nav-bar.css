@@ -2,25 +2,22 @@
 
 .header {
   display: flex;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   width: 100%;
   position: fixed;
   height: 70px;
   top: 0px;
 }
 
-
 .logo {
   width: 70px;
   margin-left: 25px;
-
 }
-
 
 .nav-ul {
   display: flex;
   list-style-type: none;
-  gap: 40px; 
+  gap: 40px;
   padding: 20px;
 }
 
@@ -28,7 +25,6 @@
 .nav-ul li {
   font-family: "DM Sans", sans-serif;
   font-size: 30px;
-
 }
 
 /* Estiliza os links de navegação */
