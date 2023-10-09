@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,800&family=Roboto:ital,wght@1,300&display=swap");
 
 body {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .footer {
@@ -14,7 +14,6 @@ body {
 
 .sessoes {
   display: flex;
-
   padding: 20px;
   flex-direction: column;
 }
@@ -36,7 +35,6 @@ body {
 .sociais-div {
   width: 400px;
   text-align: center;
-
 }
 
 .logo-footer {
@@ -50,5 +48,5 @@ body {
 
 .texto-footer-align {
   text-align: center;
-   margin: 20px;
+  margin: 20px;
 }

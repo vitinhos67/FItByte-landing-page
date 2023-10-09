@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
 
 .header {
   display: flex;
@@ -21,9 +21,9 @@
   padding: 20px;
 }
 
-/* Estiliza a li e da os espaçamentos */
 .nav-ul li {
-  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-family: "Gabarito", cursive;
   font-size: 30px;
 }
 

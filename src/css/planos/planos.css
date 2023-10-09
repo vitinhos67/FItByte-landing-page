@@ -24,14 +24,14 @@ img.icon-plano {
 }
 
 h3.h3-texto {
-    width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 35px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 35px;
 }
 
 .btn-planos {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-size: 30px;
   border: none;
   padding: 15px 30px 15px 30px;
@@ -39,12 +39,11 @@ h3.h3-texto {
   margin: 20px 0 0 0;
   color: #666565;
   font-weight: bold;
-  font-family: 'DM Sans', sans-serif;
-
+  font-family: "DM Sans", sans-serif;
 }
 
 .btn-planos:hover {
   cursor: pointer;
   background-color: #666565;
-  color: #FFFFFF
+  color: #ffffff;
 }

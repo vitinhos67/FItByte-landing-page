@@ -10,34 +10,31 @@
 
 .imagem-celular {
   width: 400px;
-
 }
 
 .info-app h1 {
-    color: #656565;
-    font-size: 80px;
+  color: #656565;
+  font-size: 80px;
 }
 
 .baixar-app-btn {
-    color: #656565;
-    font-size: 20px;
-    font-family: "DM Sans", sans-serif;
-    padding: 20px 40px 20px 40px;
-    margin: 15px 0px 0px 0px;
-    border: none;
-    border-radius: 8px;
-
+  color: #656565;
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  padding: 20px 40px 20px 40px;
+  margin: 15px 0px 0px 0px;
+  border: none;
+  border-radius: 8px;
 }
 
-
 .baixar-app-btn:hover {
-    background-color: #656565;
-    color: #FFFFFF;
-    cursor: pointer;
+  background-color: #656565;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .sub-texto {
-    width: 750px;
-    padding: 5px;
-    color: #656565;
+  width: 750px;
+  padding: 5px;
+  color: #656565;
 }
