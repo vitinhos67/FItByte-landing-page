@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,800&display=swap");
+/*
 
+Definição de regras para a classe de nossos-destaques, 
+onde contem uma lista em que cita motivos
+
+*/
 .nossos-destaques {
   display: flex;
   flex-direction: column;
@@ -14,6 +19,10 @@
   font-size: 30px;
 }
 
+/*
+  Aqui contém uma lista citando motivos de fazer parte da FitByte
+*/
+
 .nossos-destaques-ul {
   width: 1000px;
   display: flex;
@@ -22,7 +31,9 @@
   padding: 0;
 }
 
-
+/*
+  Define regras para cada uma li
+*/
 
 .nossos-destaques-ul li {
   padding: 17px;

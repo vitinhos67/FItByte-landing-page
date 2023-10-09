@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap");
 
+
+/*
+  Classe principal para a sessão de baixar o aplicativo
+*/
 .info-app {
   font-family: "DM Sans", sans-serif;
   display: flex;
@@ -12,10 +16,18 @@
   width: 400px;
 }
 
+/*
+Aqui define valores para o texto da sessao de celular, no caso, o titulo
+*/
+
 .info-app h1 {
   color: #656565;
   font-size: 80px;
 }
+
+/*
+Predefine valores para o botão encontrado na pagina principal, na parte de baixar o aplicativo
+*/
 
 .baixar-app-btn {
   color: #656565;

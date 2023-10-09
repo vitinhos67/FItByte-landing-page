@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,800&family=Dela+Gothic+One&family=Roboto:ital,wght@1,300&display=swap');
 
 * {
@@ -9,7 +11,9 @@ body {
   font-family: "DM Sans", sans-serif;
   margin-top: 75px;
 }
-
+/*
+  Container geral da pagina contato
+*/
 .container-contato {
   width: 1200px;
   display: flex;
@@ -42,6 +46,10 @@ body {
   width: 50px;
 }
 
+
+/*
+  Define um valor para imagem que fica ao lado do formulario.
+*/
 .img-de-redes {
   width: 800px;
   height: 600px;

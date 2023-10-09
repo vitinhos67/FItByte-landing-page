@@ -1,3 +1,9 @@
+/*
+  Classe GLOBAL;
+
+  Guarda algumas definiçoes que e utilizada em todas paginas.
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -52,6 +58,9 @@ html {
   color: #ffb612;
 }
 
+/*
+Div da tela inicial da pagina
+*/
 .tela-inicial-div {
   width: 900px;
   height: 350px;

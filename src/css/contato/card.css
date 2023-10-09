@@ -1,3 +1,7 @@
+/*
+  Cards usados para expressar a opnião do cliente.
+*/
+
 .cards {
   display: flex;
   flex-wrap: wrap;
