@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,800&family=Dela+Gothic+One&family=Roboto:ital,wght@1,300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -79,7 +81,8 @@ textarea:focus {
   background-color: #ffb612;
   font-size: 20px;
   color: #494848;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-family: 'DM Sans', sans-serif;
   border-radius: 8px;
 }
 

@@ -39,6 +39,8 @@ h3.h3-texto {
   margin: 20px 0 0 0;
   color: #666565;
   font-weight: bold;
+  font-family: 'DM Sans', sans-serif;
+
 }
 
 .btn-planos:hover {
